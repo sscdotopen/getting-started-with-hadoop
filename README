@@ -1,0 +1,2 @@
+mvn clean package
+hadoop jar getting-started-with-hadoop-1.0.jar io.ssc.tutorial.examples.CountRatingsPerItemChain --input hdfs:///datasets/rating/netflix/ --output hdfs:///ssc/tmp/tutorial-1
